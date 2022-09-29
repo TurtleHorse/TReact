@@ -108,7 +108,7 @@ LANDING PAGE
 }
 
 .first__box h1{
-    font-size: 64px;
+    font-size: 60px;
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -269,5 +269,129 @@ Services
     border-radius: 50% ;
     display: inline-block;
 }
+
+/*
+
+QUALITY WORK
+
+*/
+
+
+.contain{
+    display: flex;
+    margin-top: 120px;
+}
+
+.left__box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left__box span{
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.left__box h1 {
+    font-size: 60px;
+    color: rgb(33, 33, 85);
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.left__box .edit {
+    font-weight: 1000;
+}
+
+.left__box p {
+    font-size: 32px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.left__box button{
+    width: 200px;
+    height: 64px;
+    background-color: rgb(111, 31, 187);
+    color: white;
+    border:none;
+    border-radius: 50px;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+
+.right__box{
+    width: 50%;
+    margin-right: 75px;
+}
+
+/*
+
+EASY TO GET STARTED
+
+*/
+
+.computer__img{
+    width: 50%;
+}
+.ordered__steps{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.ordered__steps h1{
+ font-size: 64px;
+ text-align: left;
+ margin-bottom: 50px;
+
+}
+
+.purpl{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.step__container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.step__container--sub{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-left: 36px;
+}
+
+.step__container--sub p{
+    font-size: 24px;
+    color: rgb(80, 80, 80);
+    line-height: 1.5;
+}
+
+.number{
+    color: rgba(80, 80, 80, 0.281);
+    font-size: 52px;
+}
+
+.sub__title{
+    font-size: 36px;
+    color: rgba(41, 41, 90, 0.952);
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 
 
