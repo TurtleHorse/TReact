@@ -1,26 +1,27 @@
-*{
+* {
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     height: 80px;
 }
 
-li{
+li {
     list-style: none;
     font-size: 24px;
     font-weight: 700;
-    display: inline; 
+    display: inline;
 }
 
-.purple{
-    color:  rgb(111, 31, 187);
+.purple {
+    color: rgb(111, 31, 187);
 }
+
 /*
 
 Nav Bar
@@ -28,58 +29,59 @@ Nav Bar
 */
 
 .row {
-   width: 100%;
-   max-width: 1400px;
-   margin: 0 auto;
-   margin-top: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
-.button__link--container{
+.button__link--container {
     display: flex;
     align-items: center;
     margin-left: 30%;
 }
 
-.logo{
+.logo {
     width: 160px;
     margin-left: 15px;
 }
 
-.nav__links{
+.nav__links {
     list-style: none;
-    
-    
-}
-.nav__link{
-   text-decoration: none;
-   margin: 0 10px;
+
 
 }
 
-.btn__menu { 
+.nav__link {
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.btn__menu {
     font-size: 24px;
 }
 
-.btn__login:hover{
+.btn__login:hover {
     cursor: pointer;
     color: rgb(80, 80, 80);
 }
 
-.btn__login{
+.btn__login {
     border: none;
     background: #fff;
     font-weight: 700;
     margin-left: 30px;
-    
+
 }
 
-.btn__primary:hover{
+.btn__primary:hover {
     cursor: pointer;
     background-color: rgba(111, 31, 187, 80%);
     color: rgb(197, 185, 185);
 }
 
-.btn__primary{
+.btn__primary {
     width: 200px;
     height: 64px;
     background-color: rgb(111, 31, 187);
@@ -95,7 +97,7 @@ Nav Bar
 LANDING PAGE
 
 */
-.container{
+.container {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -103,11 +105,11 @@ LANDING PAGE
     display: flex;
 }
 
-.first__box{
+.first__box {
     width: 40%;
 }
 
-.first__box h1{
+.first__box h1 {
     font-size: 60px;
     margin-left: 30px;
     margin-top: 30px;
@@ -121,17 +123,17 @@ LANDING PAGE
     margin-bottom: 30px;
 }
 
-.first__box img{
+.first__box img {
     max-width: 100%;
     margin-left: 30px;
     margin-top: 50px;
-    
+
 }
 
 
-.second__box{
+.second__box {
     width: 60%;
-    
+
 }
 
 .second__box img {
@@ -167,12 +169,12 @@ LANDING PAGE
     height: 50px;
     font-size: 20px;
     font-weight: 700;
-    background-color:rgb(111, 31, 187);
+    background-color: rgb(111, 31, 187);
     color: #fff;
     border: none;
 }
 
-.gQkmRz button:hover{
+.gQkmRz button:hover {
     background-color: rgba(111, 31, 187, 80%);
     color: rgb(190, 183, 183);
 }
@@ -183,7 +185,7 @@ Features
 
 */
 
-.features{
+.features {
     padding-top: 200px;
     margin: 0 auto;
     max-width: 1200px;
@@ -192,19 +194,19 @@ Features
     flex-direction: column;
 }
 
-.purp{
+.purp {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
-    
+
 }
 
-.features h1{
+.features h1 {
     text-align: center;
     font-size: 80px;
 }
 
-.features p{
+.features p {
     font-size: 36px;
     line-height: 1.5;
     text-align: center;
@@ -216,30 +218,30 @@ Services
 
 */
 
-.containers{
+.containers {
     padding: 80px 0;
 }
 
-.services{
+.services {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.service{
+.service {
     display: flex;
     width: calc(100% / 3);
 
 }
 
-.serivce__description{
+.serivce__description {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.services h1{
+.services h1 {
     font-size: 36px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -247,7 +249,7 @@ Services
     color: rgb(33, 33, 85);
 }
 
-.services p{
+.services p {
     font-size: 24px;
     text-align: left;
     margin-left: 20px;
@@ -255,18 +257,18 @@ Services
     line-height: 1.5;
 }
 
-.service__img--circle{
+.service__img--circle {
     width: 40%;
     transform: translate(70%, 75%);
-    
+
 }
 
-.small__img--container{
+.small__img--container {
     margin-top: 80px;
     width: 100px;
     height: 80px;
     border: solid rgba(180, 179, 179, 0.651) 1px;
-    border-radius: 50% ;
+    border-radius: 50%;
     display: inline-block;
 }
 
@@ -277,18 +279,18 @@ QUALITY WORK
 */
 
 
-.contain{
+.contain {
     display: flex;
     margin-top: 120px;
 }
 
-.left__box{
+.left__box {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.left__box span{
+.left__box span {
     font-weight: 700;
     text-align: left;
     margin-bottom: 25px;
@@ -311,19 +313,19 @@ QUALITY WORK
     line-height: 1.5;
 }
 
-.left__box button{
+.left__box button {
     width: 200px;
     height: 64px;
     background-color: rgb(111, 31, 187);
     color: white;
-    border:none;
+    border: none;
     border-radius: 50px;
     font-size: 24px;
     margin-top: 25px;
 }
 
 
-.right__box{
+.right__box {
     width: 50%;
     margin-right: 75px;
 }
@@ -334,64 +336,190 @@ EASY TO GET STARTED
 
 */
 
-.computer__img{
+.computer__img {
     width: 50%;
 }
-.ordered__steps{
+
+.ordered__steps {
     width: 50%;
     display: flex;
     flex-direction: column;
     margin-left: 80px;
 }
 
-.ordered__steps h1{
- font-size: 64px;
- text-align: left;
- margin-bottom: 50px;
+.ordered__steps h1 {
+    font-size: 64px;
+    text-align: left;
+    margin-bottom: 50px;
 
 }
 
-.purpl{
+.purpl {
     font-size: 36px;
     font-weight: 700;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.step__container{
+.step__container {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.step__container--sub{
+.step__container--sub {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
     margin-left: 36px;
 }
 
-.step__container--sub p{
+.step__container--sub p {
     font-size: 24px;
     color: rgb(80, 80, 80);
     line-height: 1.5;
 }
 
-.number{
+.number {
     color: rgba(80, 80, 80, 0.281);
     font-size: 52px;
 }
 
-.sub__title{
+.sub__title {
     font-size: 36px;
     color: rgba(41, 41, 90, 0.952);
     margin-bottom: 20px;
 }
 
+/*
+
+Principles
+
+*/
+
+.wrapper {
+    display: flex; 
+}
+
+.splitter {
+    width: 50%;
+}
+
+.chart__img {
+    width: 50%;
+}
+
+.chart__img img{
+    width: 100%;
+    height: auto;
+}
+
+.affordable__professional--wrapper {
+    display: flex;
+}
+
+.affordable {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.affordable h2{
+    font-size: 30px;
+    color: rgb(33, 33, 85);
+    margin-left: 20px;
+}
+
+.affordable p{
+    font-size: 24px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-right: 25px;
+    line-height: 1.5;
+}
+
+.professionalism {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+}
+
+.professionalism h2{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(33, 33, 85);
+}
+
+.professionalism p {
+    font-size: 24px;
+    color: rgb(80, 80, 80);
+    margin-top: 50px;
+    margin-left: 25px;
+    line-height: 1.5;
+    
+}
+
+
+.principles__wrapper h1{
+    font-size: 60px;
+    color: rgb(33, 33, 85);
+    font-weight: 900;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.principles__wrapper p{
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+    line-height: 1.5;
+}
+
+.feather-dollar-sign{
+    color: rgb(39 103 73);
+    background-color: rgb(154 230 180);
+    height: 2rem;
+    width: 2rem;
+    transform: translate(25%,25%);
+}
+
+.qert{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+    background-color: rgb(154 230 180);
+}
 
 
 
+.feather-briefcase{
+    color:  rgb(155 44 44);
+    background-color:  rgb(254 178 178);
+    height: 2rem;
+    width: 2rem;
+    transform: translate(25%,25%);
+}
 
+.wert{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+    background-color:  rgb(254 178 178); 
+}
 
+.btn__lrnmre{
+    width: 200px;
+    height: 64px;
+    background-color: rgb(111, 31, 187);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+    margin-top: 25px;
+}
 
 
