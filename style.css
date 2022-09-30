@@ -32,7 +32,7 @@ Nav Bar
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 20px;
+    padding: 50px 0;
 }
 
 .button__link--container {
@@ -103,6 +103,7 @@ LANDING PAGE
     margin: 0 auto;
     margin-top: 200px;
     display: flex;
+
 }
 
 .first__box {
@@ -327,7 +328,13 @@ QUALITY WORK
 
 .right__box {
     width: 50%;
-    margin-right: 75px;
+    height: 100%;
+    padding-top: 100px;
+    
+}
+
+.right__box img {
+    width: 100%;
 }
 
 /*
@@ -407,6 +414,7 @@ Principles
 
 .chart__img {
     width: 50%;
+    padding-top: 200px;
 }
 
 .chart__img img{
@@ -520,6 +528,118 @@ Principles
     border-radius: 50px;
     font-size: 24px;
     margin-top: 25px;
+}
+
+/*
+
+Plans
+
+*/
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.plan {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.dark{
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pricing__wrapper{
+    margin-bottom: 36px;
+}
+
+.pricing__wrapper h1{
+    font-size: 60px;
+    color: rgb(33, 33, 85);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.pricing__wrapper p{
+    font-size: 24px;
+    color: rgb(80, 80, 80);
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.Price{
+    font-size: 56px;
+    margin: 20px 0;
+}
+
+.monthly{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.title{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.plan__one{
+    background-color: #fff;
+}
+
+.plan__two{
+    background-color: rgba(100, 21, 255, 0.856);
+    color: rgb(247 250 252);
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub__plan--unique{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 3px rgb(102 126 234);
+    border-bottom: solid 3px rgb(102, 126, 234);
+}
+
+.sub__plan--unique h2{
+    font-size: 32px;
+    margin: 40px 50px;
+}
+
+.sub__plan--unique p {
+    font-size: 24px;
+    color: rgb(226 232 240);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.special__button{
+    width: 60%;
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 25px 0;
+    color: rgb(111, 31, 187);
+    font-weight: 700;
+    font-size: 20px;
 }
 
 
