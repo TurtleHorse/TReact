@@ -330,7 +330,7 @@ QUALITY WORK
     width: 50%;
     height: 100%;
     padding-top: 100px;
-    
+
 }
 
 .right__box img {
@@ -405,7 +405,7 @@ Principles
 */
 
 .wrapper {
-    display: flex; 
+    display: flex;
 }
 
 .splitter {
@@ -417,7 +417,7 @@ Principles
     padding-top: 200px;
 }
 
-.chart__img img{
+.chart__img img {
     width: 100%;
     height: auto;
 }
@@ -434,13 +434,13 @@ Principles
     align-items: center;
 }
 
-.affordable h2{
+.affordable h2 {
     font-size: 30px;
     color: rgb(33, 33, 85);
     margin-left: 20px;
 }
 
-.affordable p{
+.affordable p {
     font-size: 24px;
     color: rgb(80, 80, 80);
     margin-bottom: 25px;
@@ -457,7 +457,7 @@ Principles
     align-items: center;
 }
 
-.professionalism h2{
+.professionalism h2 {
     margin-left: 20px;
     font-size: 30px;
     color: rgb(33, 33, 85);
@@ -469,11 +469,11 @@ Principles
     margin-top: 50px;
     margin-left: 25px;
     line-height: 1.5;
-    
+
 }
 
 
-.principles__wrapper h1{
+.principles__wrapper h1 {
     font-size: 60px;
     color: rgb(33, 33, 85);
     font-weight: 900;
@@ -481,21 +481,21 @@ Principles
     margin-top: 25px;
 }
 
-.principles__wrapper p{
+.principles__wrapper p {
     font-size: 30px;
     color: rgb(80, 80, 80);
     line-height: 1.5;
 }
 
-.feather-dollar-sign{
+.feather-dollar-sign {
     color: rgb(39 103 73);
     background-color: rgb(154 230 180);
     height: 2rem;
     width: 2rem;
-    transform: translate(25%,25%);
+    transform: translate(25%, 25%);
 }
 
-.qert{
+.qert {
     height: 3rem;
     width: 3rem;
     border-radius: 9999px;
@@ -504,22 +504,22 @@ Principles
 
 
 
-.feather-briefcase{
-    color:  rgb(155 44 44);
-    background-color:  rgb(254 178 178);
+.feather-briefcase {
+    color: rgb(155 44 44);
+    background-color: rgb(254 178 178);
     height: 2rem;
     width: 2rem;
-    transform: translate(25%,25%);
+    transform: translate(25%, 25%);
 }
 
-.wert{
+.wert {
     height: 3rem;
     width: 3rem;
     border-radius: 9999px;
-    background-color:  rgb(254 178 178); 
+    background-color: rgb(254 178 178);
 }
 
-.btn__lrnmre{
+.btn__lrnmre {
     width: 200px;
     height: 64px;
     background-color: rgb(111, 31, 187);
@@ -536,7 +536,7 @@ Plans
 
 */
 
-.plans{
+.plans {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -549,7 +549,7 @@ Plans
     flex-direction: column;
 }
 
-.dark{
+.dark {
     font-size: 36px;
     font-weight: 700;
     display: flex;
@@ -557,11 +557,11 @@ Plans
     margin-bottom: 20px;
 }
 
-.pricing__wrapper{
+.pricing__wrapper {
     margin-bottom: 36px;
 }
 
-.pricing__wrapper h1{
+.pricing__wrapper h1 {
     font-size: 60px;
     color: rgb(33, 33, 85);
     text-align: center;
@@ -569,34 +569,74 @@ Plans
 
 }
 
-.pricing__wrapper p{
+.pricing__wrapper p {
     font-size: 24px;
     color: rgb(80, 80, 80);
     text-align: center;
     margin-bottom: 20px;
+
+}
+
+.Price {
+    font-size: 56px;
+    margin: 20px 0;
+    text-align: center;
+   
+}
+
+.monthly {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
     
 }
 
-.Price{
-    font-size: 56px;
-    margin: 20px 0;
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 50px;
 }
 
-.monthly{
+.plan__one {
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub__plan p {
     font-size: 24px;
-    margin: 20px 0;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
-.title{
-    font-size: 24px;
-    margin-top: 20px;
+.button__buy--now{
+    width: 80%;
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    padding: 25px;
+    background-color: rgb(102, 126, 234);
+    margin: 25px 0;
+    
 }
 
-.plan__one{
-    background-color: #fff;
+
+.sub__plan h2{
+    font-size: 32px;
+    margin: 40px 50px;
 }
 
-.plan__two{
+.plan__two {
     background-color: rgba(100, 21, 255, 0.856);
     color: rgb(247 250 252);
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
@@ -606,7 +646,7 @@ Plans
     align-items: center;
 }
 
-.sub__plan--unique{
+.sub__plan--unique {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -614,7 +654,7 @@ Plans
     border-bottom: solid 3px rgb(102, 126, 234);
 }
 
-.sub__plan--unique h2{
+.sub__plan--unique h2 {
     font-size: 32px;
     margin: 40px 50px;
 }
@@ -626,9 +666,9 @@ Plans
     margin-bottom: 25px;
 }
 
-.special__button{
+.special__button {
     width: 60%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     border-radius: 9999px;
     border: none;
     padding-top: 1rem;
@@ -641,5 +681,3 @@ Plans
     font-weight: 700;
     font-size: 20px;
 }
-
-
