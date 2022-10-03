@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after{
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
@@ -539,7 +541,8 @@ Plans
 .plans {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 
@@ -597,43 +600,67 @@ Plans
     margin: 40px 50px;
 }
 
-.plan__one {
+.plan {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     color: black;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 1px rgba(194, 189, 189, 0.411);
+}
+
+.border-color-personal{
+    border-top: solid 6px rgb(56, 178, 172);
+}
+
+.border-color-enterprise{
+    border-top:solid 6px  rgb(245, 101, 101);
+}
+
+
+
+.button__buy--now{
+    width: 60%;
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    padding: 25px;
+    margin: 25px 0;
+    
+}
+.button-color-one{
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+    font-size: 20px;
+}
+.button-color-two{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: white;
+    font-size: 20px;
+}
+
+.sub__plan{
+    border-top: solid 3px rgba(194, 189, 189, 0.411);
+    border-bottom: solid 3px rgba(194, 189, 189, 0.411);
+    width: 100%;
+}
+.sub__plan h2{
+    font-size: 32px;
+    margin: 40px 50px;
+    text-align: center;
 }
 
 .sub__plan p {
     font-size: 24px;
     color: black;
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 25px;
     text-align: center;
-}
-
-.button__buy--now{
-    width: 80%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    border-radius: 9999px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border: none;
-    padding: 25px;
-    background-color: rgb(102, 126, 234);
-    margin: 25px 0;
-    
-}
-
-
-.sub__plan h2{
-    font-size: 32px;
-    margin: 40px 50px;
 }
 
 .plan__two {
@@ -662,22 +689,220 @@ Plans
 .sub__plan--unique p {
     font-size: 24px;
     color: rgb(226 232 240);
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 25px;
 }
 
 .special__button {
     width: 60%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     border-radius: 9999px;
-    border: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    border: none;
+    padding: 25px;
     margin: 25px 0;
     color: rgb(111, 31, 187);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 20px;  
 }
+
+/*
+
+FAQS
+
+*/
+
+.faqs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs-container h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.faqs-container p{
+    font-size: 24px;
+    color: rgb(190, 183, 183);
+    text-align: center;
+    margin: 10px 0;
+}
+
+section{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqs-question-container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+.accordion-item{
+    background-color: #fff;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0, .1);
+}
+
+.accordion-link{
+    font-size: 1.6rem;
+    color: grey;
+    text-decoration: none;
+    background-color: #fff;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.accordion-link .remove-outline{
+   display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden; 
+    position: relative;
+    background-color: #fff;
+    transition: max-height 650ms;
+}
+
+.answer:before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    font-size: 1.4rem;
+    color: grey;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .add-outline {
+    display: none;
+}
+
+.accordion-item:target .accordion-link .remove-outline {
+    display: block;
+}
+
+/*
+
+FOOTER
+
+*/
+.footer__row{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(100, 21, 255)
+}
+
+.footer__wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer__links{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(100 21 255);
+    line-height: 2;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.footer__link{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 5);
+    align-items: center;
+    color: white;
+    
+}
+
+.footer__link a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer__link:hover a{
+    cursor: not-allowed;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100 21 255);
+    border-top: solid grey 2px ;
+    padding: 100px 50px;
+}
+
+.footer__logo{
+    width: 20%;
+    margin: 20px 15px;
+}
+
+.treactinc {
+    font-size: 20px;
+    color:#fff;
+}
+
+.footer__logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 20px;
+    color: rgb(187, 184, 184);
+}
+
+.logo-facebook,
+.logo-twitter,
+.logo-youtube{
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 9999px;
+    
+}
+
+.social__tags{
+    font-size: 25px;
+    margin: 20px 15px;
+}
+
+
+
+    
