@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+button,
+a   {
+        cursor: not-allowed;
+    }
 
 nav {
     display: flex;
@@ -67,7 +71,6 @@ Nav Bar
 }
 
 .btn__login:hover {
-    cursor: pointer;
     color: rgb(80, 80, 80);
 }
 
@@ -80,7 +83,6 @@ Nav Bar
 }
 
 .btn__primary:hover {
-    cursor: pointer;
     background-color: rgba(111, 31, 187, 80%);
     color: rgb(197, 185, 185);
 }
@@ -96,7 +98,7 @@ Nav Bar
 }
 /*
 
-Btn Menu
+Burger Menu
 
 */
 
