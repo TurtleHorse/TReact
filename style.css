@@ -197,13 +197,14 @@ LANDING PAGE
 }
 
 .first__box {
-    width: 40%;
+    width: 100%;
 }
 
 .first__box h1 {
     font-size: 60px;
     margin-left: 30px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .first__box p {
@@ -212,6 +213,7 @@ LANDING PAGE
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .first__box img {
@@ -223,7 +225,7 @@ LANDING PAGE
 
 
 .second__box {
-    width: 60%;
+    width: 100%;
 
 }
 
@@ -1004,6 +1006,16 @@ FOOTER
     .btn__menu{
         display: none;
     }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    
 }
 
     
